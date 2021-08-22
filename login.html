@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>login</title>
+        <style>
+            body{   
+                background-image:url("park10.jpg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            } 
+            .tesla{  
+                border: solid gray 1px;  
+                width:20%;  
+                border-radius: 6px;  
+                margin: 100px auto;  
+                background-color:rgb(24, 26, 26);
+                padding-top:420px; 
+                padding-right: 180px;  
+                font-family:cursive;
+                font-size:20px;
+                position: absolute;
+                top:20px;
+                left:80px;
+                opacity:0.5;
+            }  
+            #click{  
+                color: rgb(29, 15, 15);  
+                background: #dce2e4;  
+                padding: 7px 20px;  
+                margin-left: 30%;  
+                border-radius: 20%;
+                font-family: cursive;
+                font-size:17px;
+                position: absolute;
+                top:380px;
+                right:1030px;
+            }
+            .eff :hover{
+                padding: 2px;
+            }
+            #in1{
+                background-color: white ;
+                font-size: 16px;
+                padding-right: 160px;
+                padding-top:10px;
+                opacity: 0.9;
+                position: absolute;
+                top:250px;
+                left:140px;
+                text-align:start;
+            }
+            #in2{
+                background-color: white ;
+                font-size: 16px;
+                padding-right: 160px;
+                padding-top:10px;
+                opacity: 0.9;
+                position: absolute;
+                top:300px;
+                left:140px;
+                text-align:start;
+            }
+            #signup{
+                position: absolute;
+                top:465px;
+                left:210px;
+                font-size:18px;
+                color:rgb(207, 193, 193);
+            }
+            #signup a{
+                color:white;
+            }
+            #inst1{
+                color:rgb(221, 217, 217);
+                font-family:cursive;
+                font-size:30px;
+                position:absolute;
+                top:150px;
+                left:150px;
+                
+            }
+            #inst2{
+                color:rgb(221, 217, 217);
+                font-family:cursive;
+                font-size:17px;
+                position:absolute;
+                top:170px;
+                left:120px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tesla">
+        </div>
+        <h2 id="inst1">login</h2>
+        <form action="login.jsp" method="post">
+            <input type="email" id="in1" name="email" autocomplete="off" placeholder="Email"/><br>
+            <input type="password" id="in2" name="password" autocomplete="off" placeholder="password" /><br>
+            <input type="submit" value="submit" id ="click" />
+        </form>
+        <p id="signup">
+            new to the page? <a href="sample.html">signup</a>
+        </p>
+    </body>
+</html>
